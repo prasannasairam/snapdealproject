@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+body {
+    padding: 0;
+    margin: 0;
+    font-family:'Roboto', sans-serif;
+    background: #eee;
+}
+#headersection {
+ background:#E40046 ;
+ height: 90px;
+}
+#headersection .marginleftandrightspace,.logoandcartsection >article , #contentsection>article {
+    width: 90%;
+    margin: 0 auto;
+
+}
+.topmenu p{
+    margin: 0%;
+}
+.topmenu {
+margin: 0% ;
+background:#c7003d ;
+position: "relative";
+z-index: 1;
+color: #fff;
+height: 30px;
+line-height: 28px;
+font-size: 12px;
+
+}
+.leftpara {
+    width: 50%;
+    float: left;
+}
+.rightULMenu {
+    list-style: none;
+    padding: 0;
+    margin : 0;
+    width: 50%;
+    float: right;
+    text-align: right;
+}
+.rightULMenu li {
+    display: inline-block;
+    
+}
+.rightULMenu li a {
+    color: white;
+    text-decoration: none;
+    padding: 0 10px ;
+}
+/*---logo and cart section --*/
+.logoandcartsection>article .logo {
+    width: 17%;
+    float: left;
+    position: relative;
+    top: 18px;
+}
+.logoandcartsection>article .search {
+    width: 63%;
+    float: left;
+    line-height: 60px;
+}
+.logoandcartsection>article .cart {
+    width: 20%;
+    float: right;
+    
+}
+#search {
+    width: 70%;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 2px;
+    background: #fff;
+    color: #909090;
+}
+.searchText {
+    padding: 8px 16px;
+    background: #333333;
+    color: #fff;
+    border-radius: 0px 3px 3px 0px;
+    margin: 13px -5px;
+    top: 1px;
+    position: relative;
+}
+#insideDiv {
+    display: none;
+}
+.rightNavigation {
+    list-style: none;
+    padding: 17PX ;
+    margin: 0;
+}
+.rightNavigation li {
+    display: inline-block !important;
+}
+.rightNavigation li a {
+    padding: 29px;
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+ .fa-shopping-cart {
+    font-size: 24px;
+ }
+.rightNavigation li :nth-child(2):hover {
+    background: #111;
+}
+/*content section css here*/
+#contentsection {
+    background: #eee;
+    height: 100vh;
+}
+#contentsection>article {
+    margin-top: 40px;
+}
+.contentleft{
+    width: 15%;
+    float: left;
+    background:white;
+}
+.contentmiddle{
+    width: 60%;
+    float: left;
+    background:white;
+    margin: 0% 2%;
+}
+.contentright{
+    width: 20%;
+    float: right;
+    background:white;
+}
+.contentleft h5 {
+    padding: 15px;
+    margin: 0;
+    font-size: 12px;
+    font-weight: lighter;
+}
+.menulist{
+    padding: 15px;
+    margin: 0;
+    list-style: none;
+}
+.menulist li a {
+    color: #111;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: lighter;
+    width: 100%;
+   
+}
+.menulist li a:hover {
+    border-left: 3px solid red;
+    background: #eee;
+    transition: ease-in-out all 0.5s;
+
+}
+.All_Offers_icons {
+    background: url('../images/Discount_Right_icon-f5105.png');
+    height: 22px;
+    width: 22px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-size: cover;/*---important---*/
+    position: relative;
+    top: 7px;
+}
+
+.Mobile_Tablet_icons {
+    background: url('../images/30x30mobile2.png');
+    height:22px ;
+    width: 22px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-size: cover; /*--important--*/
+    position: relative;
+    top: 7px;
+}
+.Electronics_icons {
+    background: url('../images/Electronic-6212c.png');
+    height:22px ;
+    width: 22px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-size: cover; /*--important--*/
+    position: relative;
+    top: 7px;
+}
+.Computer_Gamming_icons {
+    background: url('../images/ComputerGaming-a02cf.png');
+    height:22px ;
+    width: 22px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-size: cover; /*--important--*/
+    position: relative;
+    top: 7px;
+}
+.Home_Kitchen_icons {
+    background: url('../images/Homekitchenfurnishing-3eda1.jpg');
+    height:22px ;
+    width: 22px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-size: cover; /*--important--*/
+    position: relative;
+    top: 7px;
+}
